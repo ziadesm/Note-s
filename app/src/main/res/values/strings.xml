@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mindly</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_title_tools">Tools</string>
+    <string name="navigation_title_coummnication">Communication</string>
+    <string name="navigation_title_share">Share</string>
+    <string name="navigation_title_send">Send</string>
+    <string name="todo_description">TODO</string>
+    <string name="input_text">Choose your amazing title</string>
+    <string name="input_text_text">Make it right</string>
+    <string name="no_notes_yet">Create your own notes to keep-up the day.</string>
+    <string name="save_note_describtion">Save Note</string>
+</resources>

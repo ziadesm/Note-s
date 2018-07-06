@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".IntroductionActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/app_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/add_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="22dp"
+            app:backgroundTint="@android:color/white"
+            app:rippleColor="@android:color/holo_green_dark"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <!--<android.support.design.widget.FloatingActionButton-->
+            <!--android:id="@+id/delete_note"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="top|end"-->
+            <!--android:layout_marginRight="32dp"-->
+            <!--android:layout_marginTop="@dimen/fab_margin"-->
+            <!--android:layout_marginBottom="3dp"-->
+            <!--android:visibility="gone"-->
+            <!--app:backgroundTint="@android:color/background_light"-->
+            <!--app:rippleColor="@android:color/holo_green_dark"-->
+            <!--app:srcCompat="@android:drawable/ic_delete" />-->
+    <!--&lt;!&ndash;<include layout="@layout/content_introduction" />&ndash;&gt;-->
+
+</LinearLayout>
